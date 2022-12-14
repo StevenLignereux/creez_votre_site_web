@@ -30,12 +30,20 @@ li {
   font-size: 1.1em;
 }
 
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+}
+
+.cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 50px;
+    color: white;
+  }
+
 .entete,
 .pied-de-page {
   background-color: white;
 }
 
-.cta {
-  background: linear-gradient(#8e86b5, #acaeed);
-  color: white;
-}
+

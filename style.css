@@ -18,6 +18,10 @@ em {
   font-style: normal;
 }
 
+header, footer {
+  background-color: white;
+}
+
 h1 {
   color: #a5b4fc;
   font-family: "Montserrat", sans-serif;
@@ -45,10 +49,11 @@ li {
   color: white;
 }
 
-.entete,
-.pied-de-page {
-  background-color: white;
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
 }
+
 
 .lien-icone:hover {
   opacity: 0.5;

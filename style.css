@@ -87,7 +87,8 @@ section {
   margin: auto;
 }
 
-footer, nav {
+footer,
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -98,7 +99,7 @@ nav a {
   margin-left: 30px;
 }
 
-.accueil-photo {
+.accueil-photos {
   background-color: white;
   padding: 80px;
 }
@@ -123,4 +124,34 @@ nav a {
   width: 50%;
   align-items: center;
   margin: auto;
+}
+
+.portfolio-section-photos {
+  background-color: white;
+}
+
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-bottom: 80px;
+}
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+}
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+}
+
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
